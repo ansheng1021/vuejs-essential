@@ -1,8 +1,9 @@
 <template>
     <div id="wrap">
-        <!--Header头部-->
         <TheHeader/>
-        <!--Footer底部-->
+        <div id="main-container" class="container main-container">
+            <router-view/>
+        </div>
         <TheFooter/>
     </div>
 </template>
