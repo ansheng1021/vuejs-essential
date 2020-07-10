@@ -11,7 +11,6 @@
 <script>
     import TheHeader from '@/components/layouts/TheHeader'
     import TheFooter from '@/components/layouts/TheFooter'
-
     export default {
         name: 'App',
         components: {
@@ -39,4 +38,8 @@
     @import "~font-awesome/scss/font-awesome";
     @import "./styles/main.scss";
     @import "./styles/extra.scss";
+    @import '~simplemde/dist/simplemde.min.css';
+    @import '~highlight.js/styles/paraiso-dark.css';
+    @import "~animate.css/animate.min.css";
+
 </style>
